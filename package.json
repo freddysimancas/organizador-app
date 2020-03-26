@@ -1,0 +1,20 @@
+{
+	"name": "organizador-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "concurrently \"tsc -w\" \"nodemon dist/index\""
+	},
+	"author": "Erick Torres",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongoose": "^5.9.6"
+	},
+	"devDependencies": {
+		"@types/express": "^4.17.3",
+		"@types/mongoose": "^5.7.7",
+		"concurrently": "^5.1.0"
+	}
+}
